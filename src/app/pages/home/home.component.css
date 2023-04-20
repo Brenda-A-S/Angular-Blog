@@ -4,3 +4,9 @@
     justify-content: center;
 }
 
+
+@media (max-width:1020px) {
+    .container__articles {
+        flex-direction: column;    
+    }
+}

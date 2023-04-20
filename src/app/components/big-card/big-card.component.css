@@ -1,17 +1,15 @@
 .container__big-card {
-    /* border: 2px solid white; */
     max-width: 50vw;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    margin: 1rem 4rem 1rem 1rem;
+    margin: 4rem 1rem;
 }
 
 .container__big-card img {
-    width: 40vw;
+    max-width:100%;
     min-width: 30vw;
-    max-height: 850px;
     border-radius: 10px;
 }
 
@@ -26,3 +24,4 @@
 .big-card__description p a{
     color: #3E3E3E;
 }
+
