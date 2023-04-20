@@ -2,11 +2,15 @@
     <div class="content__cover">
         <img src="{{ photoCover }}" alt="">
     </div>
-    <div class="content__title">
-        <a [routerLink]="['']">Voltar</a>
-        <h1>{{ cardTitle }}</h1>
-    </div>
-    <div class="content__description">
-        <p>{{ cardDescription }}</p>
+    <div class="content">
+        <div class="content__title">
+            <a [routerLink]="['']">Voltar</a>
+            <h1>{{ cardTitle }}</h1>
+        </div>
+        <div class="content__description">
+            <p>{{ cardDescription }}</p>
+        </div>
+        <div class="content__button">
+        <a href="{{ link }}" target="_blank" ><button>Veja o conteúdo completo!</button></a></div>
     </div>
 </div>

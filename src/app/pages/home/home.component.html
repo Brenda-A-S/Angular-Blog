@@ -1,29 +1,61 @@
-<app-menu-title></app-menu-title>
+<div class="header">
+    <app-menu-title title="Meus Projetos"></app-menu-title>
+</div>
+
 
 <div class="container__articles">
     <div class="articles__main">
-        <app-big-card
-        Id="1"
-        photoCover="https://source.unsplash.com/random/?Design"
-        cardTitle="Design Title"
-        cardDescription="New description"
-        ></app-big-card>
+        <app-big-card Id="1"
+            photoCover="https://user-images.githubusercontent.com/69852246/229861058-c60d97ec-6444-4c62-8c08-eed93c5552e2.png"
+            cardTitle="Projeto de Site para Cafeteria com Bootstrap"
+            cardDescription="Esse projeto foi desenvolvido com o Framework Bootstrap em um dos módulos da Formação CSS Web Developer da DIO."></app-big-card>
     </div>
     <div class="articles__others">
-        <app-small-card
-        Id="2"
-        photoCover="https://source.unsplash.com/random/?Designer"
-        cardTitle="Designer Title"
-        ></app-small-card>
-        <app-small-card
-        Id="2"
-        photoCover="https://source.unsplash.com/random/?Designer"
-        cardTitle="Designer Title"
-        ></app-small-card>
-        <app-small-card
-        Id="2"
-        photoCover="https://source.unsplash.com/random/?Designer"
-        cardTitle="Designer Title"
-        ></app-small-card>
+        <app-small-card Id="2"
+            photoCover="https://user-images.githubusercontent.com/69852246/229369084-7a620b72-7238-4eb5-b83a-866851e0b933.png"
+            cardTitle="Layout Responsivo Discord"></app-small-card>
+        <app-small-card Id="3"
+            photoCover="https://user-images.githubusercontent.com/69852246/230944448-21dccac3-8457-46cb-8a1e-ee0788b95a46.png"
+            cardTitle="Projeto de Portfólio"></app-small-card>
+        <app-small-card Id="4"
+            photoCover="https://user-images.githubusercontent.com/69852246/230819940-bf0242c4-3b89-4666-8aad-764ea355b43a.png"
+            cardTitle="Projeto Pokedex Desafio DIO"></app-small-card>
+        <app-small-card Id="5"
+            photoCover="https://user-images.githubusercontent.com/69852246/230966407-edde67bc-d3ca-47e0-88af-c7aeef215c2e.png"
+            cardTitle="Desafio criação de Currículo Online"></app-small-card>
+        <app-small-card Id="8"
+            photoCover="https://user-images.githubusercontent.com/69852246/233455643-dcddb017-94e0-4979-b3ee-fd691e74d69c.png"
+            cardTitle="Desafio GRID CSS"></app-small-card>
+        <app-small-card Id="9"
+            photoCover="https://user-images.githubusercontent.com/69852246/233455793-7dfd928a-2e07-47a5-86ae-323e11871a74.png"
+            cardTitle="Desafio FlexBox"></app-small-card>
+        <app-small-card Id="10"
+            photoCover="https://user-images.githubusercontent.com/55519539/183538055-6cce606c-7d1d-4d15-a4be-ffeb5b37c956.png"
+            cardTitle="Primeira Landing Page com HTML e CSS"></app-small-card>
     </div>
+</div>
+
+<div class="header ligth">
+    <app-small-title [ngClass]="ligth" title="Meus artigos na dio"></app-small-title>
+</div>
+
+<div class="container__articles ligth">
+    <div class="article">
+        <app-small-card [ngClass]="ligth" 
+        Id="6" 
+        photoCover="https://hermes.dio.me/articles/cover/6b4576b2-d358-4c1c-8ce5-b6def7cfb5fc.png"            
+        cardTitle="A importância de fazer Conexões no LinkedIn"            
+        cardDescription="O LinkedIn é uma rede social profissional que oferece diversas possibilidades para profissionais de diversas áreas, incluindo para a área de programação."></app-small-card>
+    </div>
+    <div class="article">
+        <app-small-card [ngClass]="ligth" 
+        Id="7" 
+        photoCover="https://hermes.dio.me/articles/cover/5894627d-20c9-4798-a623-fe053819dac7.jpg"            
+        cardTitle="Como otimizar o seu perfil no LinkedIn para atrair recrutadores"            
+        cardDescription="O LinkedIn é uma ferramenta essencial para quem busca oportunidades de emprego, seja para mudar de carreira ou encontrar uma nova posição em sua área de atuação."></app-small-card>
+    </div>
+</div>
+<div [ngClass]="ligth">
+    <br>
+    <br>
 </div>

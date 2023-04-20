@@ -11,3 +11,8 @@
     margin-right: 1rem;
     list-style: none;
 }
+
+.container__menu-bar ul li img {
+    max-width: 35px;
+    filter: invert();
+}

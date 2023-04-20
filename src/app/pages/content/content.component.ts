@@ -12,6 +12,7 @@ export class ContentComponent implements OnInit {
   photoCover:string=""
   cardTitle:string=""
   cardDescription:string=""
+  link:any=""
   private id:string | null = "0"
 
   constructor(
@@ -29,6 +30,6 @@ export class ContentComponent implements OnInit {
     this.cardTitle = result.title
     this.cardDescription = result.description
     this.photoCover = result.photo
-  }
+    this.link = result.link
 
-}
+}}
