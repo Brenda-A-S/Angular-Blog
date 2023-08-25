@@ -10,7 +10,7 @@
 
 .container__big-card img {
     max-width: 100%;
-    min-width: 500px;
+    min-width: 300px;
     border-radius: 10px;
 }
 
@@ -26,6 +26,7 @@
 
 .big-card__content {
     padding: 10px;
+    max-width: 60ch;
 }
 
 .big-card__description p,

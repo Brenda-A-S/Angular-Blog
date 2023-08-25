@@ -1,4 +1,4 @@
-@media(max-width:850px) {
+@media(max-width:870px) {
     .container__big-card {
         flex-direction: column-reverse;
     }
@@ -10,6 +10,12 @@
     }
 
     .container__big-card img {
-        min-width: 280px;
+        min-width: 260px;
+    }
+    .big-card__title h2 {
+        font-size: 1.5rem;
+    }
+    .container__big-card p {
+        font-size: 1rem;
     }
 }
