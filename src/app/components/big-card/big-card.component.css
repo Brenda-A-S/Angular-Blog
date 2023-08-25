@@ -12,6 +12,7 @@
     max-width: 100%;
     min-width: 300px;
     border-radius: 10px;
+    border: 1px solid var(--cor-2);
 }
 
 .big-card__title h2 {

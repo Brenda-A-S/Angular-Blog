@@ -1,12 +1,5 @@
-@media(max-width:1020px) {
-    .container__small-card {
-        width: 90%;
-        margin: 1rem auto;
+@media(max-width:700px) {
+    .container__small-card{
+        margin: .7rem 0;
     }
-    
-}
-@media(max-width:415px) {
-    .small-card__title h1 a {
-        font-size: 1.3rem;
-    }    
 }

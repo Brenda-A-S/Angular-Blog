@@ -11,7 +11,7 @@ export const dataFake = {
         {
             "id": "4",
             "photo": "https://user-images.githubusercontent.com/69852246/229861058-c60d97ec-6444-4c62-8c08-eed93c5552e2.png",
-            "title": "Projeto de Site para Cafeteria com Bootstrap",
+            "title": "Projeto Cafeteria",
             "description": "Esse projeto foi desenvolvido com o Framework Bootstrap em um dos módulos da Formação CSS Web Developer da DIO. Ele possui elementos disponibilizados pelo Framework.",
             "link": "https://github.com/Brenda-A-S/projetoSiteCafeteria/blob/main/README.md"
         },
