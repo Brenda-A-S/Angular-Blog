@@ -25,7 +25,8 @@ export class ContentComponent implements OnInit {
   }
 
   setValuesToComponent(id:string | null){
-    const result = dataFake.filter(article => article.id == id )[0]
+    const data = dataFake.projects
+    const result = data.filter(article => article.id == id )[0]
 
     this.cardTitle = result.title
     this.cardDescription = result.description

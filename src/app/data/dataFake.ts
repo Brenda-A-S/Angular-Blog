@@ -1,72 +1,118 @@
-export const dataFake = [
-    {
-        "id":"1",
-        "photo":"https://user-images.githubusercontent.com/69852246/229861058-c60d97ec-6444-4c62-8c08-eed93c5552e2.png",
-        "title":"Projeto de Site para Cafeteria com Bootstrap",
-        "description":"Esse projeto foi desenvolvido com o Framework Bootstrap em um dos módulos da Formação CSS Web Developer da DIO. Ele possui elementos disponibilizados pelo Framework.",
-        "link":"https://github.com/Brenda-A-S/projetoSiteCafeteria/blob/main/README.md"
-    },
-    {
-        "id":"2",
-        "photo":"https://user-images.githubusercontent.com/69852246/229369084-7a620b72-7238-4eb5-b83a-866851e0b933.png",
-        "title":"Layout Responsivo Discord",
-        "description":"Este projeto foi desenvolvido com base no Desafio Construindo um Layout Responsivo do Site Discord Com CSS da Formação CSS Web Developer da plataforma Digital Innovation One, que consiste em recriar o site proposto a partir de um protótipo criado pela expert Michele Ambrosio, para colocar em prática os conhecimentos sobre responsividade adquiridos ao longo das aulas.",
-        "link":"https://github.com/Brenda-A-S/LayoutResponsivoDiscordDesafio"
-    },
-    {
-        "id":"3",
-        "photo":"https://user-images.githubusercontent.com/69852246/230944448-21dccac3-8457-46cb-8a1e-ee0788b95a46.png",
-        "title":"Projeto de Portfólio",
-        "description":"Projeto de uma página de portfólio, aplicando conceitos aprendidos em módulo da Formação JavaScript Developer da DIO, como normalize CSS, requisições API com fetch, manipulações de ArrayList com map() e join().",
-        "link":"https://github.com/Brenda-A-S/js-developer-portfolio"
-    },
-    {
-        "id":"4",
-        "photo":"https://user-images.githubusercontent.com/69852246/230819940-bf0242c4-3b89-4666-8aad-764ea355b43a.png",
-        "title":"Projeto Pokedex Desafio DIO",
-        "description":"Projeto de uma Pokedex, utilizando de recursos da API pokeapi.co com requisições feitas através de fetch API. Esse projeto foi desenvolvido em um dos módulos da Formação JavaScript Developer da DIO.",
-        "link":"https://github.com/Brenda-A-S/pokedex"
-    },
-    {
-        "id":"5",
-        "photo":"https://user-images.githubusercontent.com/69852246/230966407-edde67bc-d3ca-47e0-88af-c7aeef215c2e.png",
-        "title":"Desafio criação de Currículo Online",
-        "description":"Este projeto foi desenvolvido para o Bootcamp Potência Tech Angular Developer - Powered by iFood da Digital Innovation One (DIO).",
-        "link":"https://github.com/Brenda-A-S/curriculo"
-    },
-    {
-        "id":"6",
-        "photo":"https://hermes.dio.me/articles/cover/6b4576b2-d358-4c1c-8ce5-b6def7cfb5fc.png",
-        "title":"A importância de fazer Conexões no LinkedIn",
-        "description":"O LinkedIn é uma rede social profissional que oferece diversas possibilidades para profissionais de diversas áreas, incluindo para a área de programação.",
-        "link":"https://web.dio.me/articles/a-importancia-de-fazer-conexoes-no-linkedin?back=%2Farticles&page=1&order=oldest"
-    },
-    {
-        "id":"7",
-        "photo":"https://hermes.dio.me/articles/cover/5894627d-20c9-4798-a623-fe053819dac7.jpg",
-        "title":"Como otimizar o seu perfil no LinkedIn para atrair recrutadores",
-        "description":"O LinkedIn é uma ferramenta essencial para quem busca oportunidades de emprego, seja para mudar de carreira ou encontrar uma nova posição em sua área de atuação.",
-        "link":"https://web.dio.me/articles/como-otimizar-o-seu-perfil-no-linkedin-para-atrair-recrutadores?back=%2Farticles&page=1&order=oldest"
-    },
-    {
-        "id":"8",
-        "photo":"https://user-images.githubusercontent.com/69852246/233455643-dcddb017-94e0-4979-b3ee-fd691e74d69c.png",
-        "title":"Desafio GRID CSS",
-        "description":"Este projeto foi desenvolvido durante a Formação CSS Web Developer da plataforma Digital Innovation One.",
-        "link":"https://github.com/Brenda-A-S/-trilha-css-desafio-03"
-    },
-    {
-        "id":"9",
-        "photo":"https://user-images.githubusercontent.com/69852246/233455793-7dfd928a-2e07-47a5-86ae-323e11871a74.png",
-        "title":"Desafio FlexBox",
-        "description":"Este projeto foi desenvolvido durante a Formação CSS Web Developer da plataforma Digital Innovation One.",
-        "link":"https://github.com/Brenda-A-S/trilha-css-desafio-02"
-    },
-    {
-        "id":"10",
-        "photo":"https://user-images.githubusercontent.com/55519539/183538055-6cce606c-7d1d-4d15-a4be-ffeb5b37c956.png",
-        "title":"Primeira Landing Page com HTML e CSS",
-        "description":"Este projeto foi desenvolvido durante a Formação CSS Web Developer da plataforma Digital Innovation One.",
-        "link":"https://github.com/Brenda-A-S/trilha-css-desafio-01"
-    },
-]
+export const dataFake = {
+    "projects": [
+        
+        {
+            "id":"1",
+            "photo":"https://user-images.githubusercontent.com/69852246/263121558-c435c1f4-f27c-4e60-ae8a-a95c8fac443e.jpg",
+            "title":"Projeto Pokedex",
+            "description":"Projeto de uma Pokedex com HTML, CSS e JavaScript, utilizando de recursos da PokeAPI com requisições feitas através de fetch API.",
+            "link":"https://github.com/Brenda-A-S/Pokedex-HTML-CSS-JS"
+        },
+        {
+            "id":"2",
+            "photo":"https://user-images.githubusercontent.com/69852246/263068495-c4ae1e3b-9425-4fd6-a3d3-d30e8d859e1f.jpg",
+            "title":"Nails Beauty",
+            "description":"Desenvolvi e projetei um site exclusivo para serviços de manicure, cuidadosamente construído com HTML, CSS e JavaScript. Este projeto não apenas representa minha paixão pela criação web, mas também reflete meu compromisso com a excelência em design e desenvolvimento.",
+            "link":"https://github.com/Brenda-A-S/Nails-Beauty-HTML-CSS-JS"
+        },
+        {
+            "id":"3",
+            "photo":"https://user-images.githubusercontent.com/69852246/235327943-83cb1586-7130-49f4-bf87-3d633e0515fe.png",
+            "title":"Clone Orkut Angular",
+            "description":"Esse projeto foi desenvolvido utilizando o framework Angular, criei uma página de login e uma página de perfil com um exemplo. A página de perfil foi desenvolvida totalmente do ZERO por mim, baseada em algumas imagens inspirações, que você pode conferir no repositório.",
+            "link":"https://github.com/Brenda-A-S/Clone-Orkut-Angular"
+        },
+        {
+            "id":"4",
+            "photo":"https://user-images.githubusercontent.com/69852246/229861058-c60d97ec-6444-4c62-8c08-eed93c5552e2.png",
+            "title":"Projeto de Site para Cafeteria com Bootstrap",
+            "description":"Esse projeto foi desenvolvido com o Framework Bootstrap em um dos módulos da Formação CSS Web Developer da DIO. Ele possui elementos disponibilizados pelo Framework.",
+            "link":"https://github.com/Brenda-A-S/projetoSiteCafeteria/blob/main/README.md"
+        },
+        {
+            "id":"5",
+            "photo":"https://user-images.githubusercontent.com/69852246/230966407-edde67bc-d3ca-47e0-88af-c7aeef215c2e.png",
+            "title":"Desafio criação de Currículo Online",
+            "description":"Este projeto foi desenvolvido para o Bootcamp Potência Tech Angular Developer - Powered by iFood da Digital Innovation One (DIO).",
+            "link":"https://github.com/Brenda-A-S/curriculo"
+        },
+        {
+            "id":"6",
+            "photo":"https://user-images.githubusercontent.com/69852246/257676008-4b115a18-bae8-4840-b694-0fa796e12884.jpg",
+            "title":"Projeto Treina Fofo",
+            "description":"Projeto criado com React, HTML5, JavaScript e SCSS para aprimorar os conhecimentos nessas tecnologias. O desafio foi recriar o design concebido pelo Futuro Dev - John, buscando aprimorar minhas habilidades e explorar novas possibilidades criativas.",
+            "link":"https://github.com/Brenda-A-S/Treina-Fofo"
+        },
+        {
+            "id":"7",
+            "photo":"https://user-images.githubusercontent.com/69852246/248926034-ea8997a4-fe39-4444-85a2-13618ce1de65.png",
+            "title":"GitFind React",
+            "description":"Projeto criado utilizando React consumindo a API do GitHub, onde buscamos um usuário e em seguida vemos um resumo sobre o mesmo, constando nome, nome de usuário, local, número de seguidores e seguidos, quantidade de repositórios públicos ou repositórios favoritados, listado com cards de resumo básico(nome e url).",
+            "link":"https://github.com/Brenda-A-S/GitFind-React"
+        },
+        {
+            "id":"8",
+            "photo":"https://user-images.githubusercontent.com/69852246/233815468-88d1a0e5-7d2e-4d9f-a35c-348e0f5bb2fa.png",
+            "title":"Clone BuzzFeed com Angular",
+            "description":"Esse projeto foi desenvolvido durante o bootcamp Potência Tech Angular Developer - Powered by iFood da DIO(Digital Innovation One) com o Framework Angular. Consiste na criação de um Quizz com utilização dos conceitos aprendidos durante o bootcamp. A temática que escolhi é: Qual a sua casa de Hogwarts?",
+            "link":"https://github.com/Brenda-A-S/BuzzfeedClone-sorting-hat-quizz"
+        },
+        {
+            "id":"9",
+            "photo":"https://user-images.githubusercontent.com/69852246/235329959-8976dc2c-ad1d-4789-b9ad-f8632dd0f134.gif",
+            "title":"Clone Twitter com Angular",
+            "description":"Esse projeto foi desenvolvido utilizando o framework Angular durante a iFood Dev Week da Digital Innovation OneDIO. Foram utilizadas linguagens que são as tecnologias fundamentais para a construção de páginas da Web modernas e responsivas: HTML e CSS.",
+            "link":"https://github.com/Brenda-A-S/Clone-Twitter-Angular"
+        },
+        {
+            "id":"10",
+            "photo":"https://user-images.githubusercontent.com/69852246/260861801-68a14449-d5a7-4c44-9799-475ef6d07d26.jpg",
+            "title":"QR code component",
+            "description":"Essa é uma solução para o QR code component challenge on Frontend Mentor. Frontend Mentor challenges te ajuda a melhorar suas habilidades de codificação construindo projetos realistas.",
+            "link":"https://github.com/Brenda-A-S/QR-Code-Component"
+        },
+    ],
+    "articles": [
+        {
+            "id":"1",
+            "title":"Funções em JavaScript, conhecendo o Foreach",
+            "photo":"https://hermes.dio.me/articles/cover/2c41aac7-a9ff-4e1b-a2a3-f97694359061.jpg",
+            "link":"https://web.dio.me/articles/funcoes-em-javascript-conhecendo-o-foreach?back=%2Farticles&page=1&order=oldest"
+        },
+        {
+            "id":"2",
+            "title":"Desafio 30 dias CSS",
+            "photo":"https://hermes.dio.me/articles/cover/5894627d-20c9-4798-a623-fe053819dac7.jpg",
+            "link":"https://web.dio.me/articles/desafio-30-dias-css?back=%2Farticles&page=1&order=oldest"
+        },
+        {
+            "id":"3",
+            "title":"Potência Tech Angular Developer - Powered by iFood",
+            "photo":"https://hermes.dio.me/articles/cover/457b8ac9-92b8-4864-98b5-4e4509e1dd93.jpg",
+            "link":"https://web.dio.me/articles/potencia-tech-angular-developer-powered-by-ifood?back=%2Farticles&page=1&order=oldest"
+        },
+        {
+            "id":"4",
+            "title":"Clone do BuzzFeed",
+            "photo":"https://hermes.dio.me/articles/cover/0f68e49c-2fe1-43b5-8f3e-ad4edc77e410.png",
+            "link":"https://web.dio.me/articles/clone-do-buzzfeed?back=%2Farticles&page=1&order=oldest"
+        },
+    ],
+    "post": [
+        {
+            "id":"1",
+            "title":"Lista de links para te ajudar no desenvolvimento e aprendizado",
+            "link":"https://www.linkedin.com/feed/update/urn:li:activity:7098009850088947712/"
+        },
+        {
+            "id":"2",
+            "title":"Indicação de site para escolher paleta de cores: Pigment Shapefactory",
+            "link":"https://www.linkedin.com/posts/brenda-antunes-silva_design-uidesign-activity-7078427675437993984--UZ_?utm_source=share&utm_medium=member_desktop"
+        },
+        {
+            "id":"3",
+            "title":"Como eu gravo meus vídeos? Mostrando qual Software eu uso para gravação",
+            "link":"https://www.linkedin.com/posts/brenda-antunes-silva_github-activity-7094806365071634432-c842?utm_source=share&utm_medium=member_desktop"
+        },
+    ],    
+}
