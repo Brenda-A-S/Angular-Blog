@@ -1,49 +1,44 @@
-<div class="header">
-    <app-menu-title title="EM REWORK"></app-menu-title>
-</div>
-
-<div class="container__articles">
-    <!-- projeto destaque -->
-    <div class="articles__main">
-        <app-big-card id="{{id}}"
-        photoCover="{{photoCover}}"
-        cardTitle="{{cardTitle}}"
+<!-- projeto destaque -->
+<section class="container container__articles" aria-label="Projeto em destaque">
+    <app-big-card id="{{id}}" photoCover="{{photoCover}}" cardTitle="{{cardTitle}}"
         cardDescription="{{ cardDescription }}"></app-big-card>
-    </div>
+</section>
+
+
+<section aria-label="Projetos" id="projetos">
+        <app-menu-title title="Meus Projetos"></app-menu-title>
     <!-- projetos -->
     <ul>
         <li class="articles__others" *ngFor="let project of projects">
-            <app-small-card id="{{project.id}}"
-            photoCover="{{project.photo}}"
-            cardTitle="{{project.title}}"></app-small-card>
+            <app-small-card id="{{project.id}}" photoCover="{{project.photo}}"
+                cardTitle="{{project.title}}"></app-small-card>
         </li>
     </ul>
-</div>
+</section>
 
-<div class="header ligth">
-    <app-small-title [ngClass]="ligth" title="Meus artigos na dio"></app-small-title>
-</div>
-
-<!-- artigos -->
-<div class="container__articles ligth">
-    <div class="article" *ngFor="let article of articles">
-        <app-small-card [ngClass]="ligth" 
-        id="{{article.id}}" 
-        photoCover="{{article.photo}}"            
-        cardTitle="{{article.title}}"></app-small-card>
+<section aria-label="Artigos" id="artigos">
+    <div class="header ligth">
+        <app-small-title [ngClass]="ligth" title="Meus artigos na dio"></app-small-title>
     </div>
-</div>
 
-<!-- posts -->
-<div class="container__articles ligth">
-    <div class="article" *ngFor="let post of posts">
-        <app-small-card [ngClass]="ligth" 
-        id="{{post.id}}" 
-        photoCover="{{post.photo}}"            
-        cardTitle="{{post.title}}"></app-small-card>
+    <!-- artigos -->
+    <ul class="container__articles ligth">
+        <li class="article" *ngFor="let article of articles">
+            <app-small-card [ngClass]="ligth" id="{{article.id}}" photoCover="{{article.photo}}"
+                cardTitle="{{article.title}}"></app-small-card>
+        </li>
+    </ul>
+</section>
+
+<section aria-label="Posts" id="posts">
+    <div class="header ligth">
+        <app-small-title [ngClass]="ligth" title="Meus artigos na dio"></app-small-title>
     </div>
-</div>
-<div [ngClass]="ligth">
-    <br>
-    <br>
-</div>
+    <!-- posts -->
+    <ul class="container__articles ligth">
+        <li class="article" *ngFor="let post of posts">
+            <app-small-card [ngClass]="ligth" id="{{post.id}}" photoCover="{{post.photo}}"
+                cardTitle="{{post.title}}"></app-small-card>
+        </li>
+    </ul>
+</section>
