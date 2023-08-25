@@ -2,11 +2,5 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-}
-
-
-@media (max-width:1020px) {
-    .container__articles {
-        flex-direction: column;    
-    }
+    padding: 0 20px;
 }

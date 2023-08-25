@@ -1,6 +1,15 @@
-@media(max-width:1020px) {
+@media(max-width:850px) {
     .container__big-card {
-        max-width: 80%;
-        margin: 2rem auto;
+        flex-direction: column-reverse;
+    }
+}
+
+@media(max-width:600px) {
+    .container__big-card {
+        padding: 10px;
+    }
+
+    .container__big-card img {
+        min-width: 280px;
     }
 }

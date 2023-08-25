@@ -40,7 +40,7 @@
     .header {
         flex-direction: column;
         align-items: flex-start;
-        padding: 40px 28px;
+        padding: 40px 28px 20px 28px;
     }
 
     .header-menu ul {
