@@ -12,30 +12,30 @@
 </section>
 
 <!-- projetos -->
-<section aria-label="Projetos" id="projetos" class="container">
+<div id="projetos">
+    <section aria-label="Projetos"  class="container">
+            <div>
+                <app-small-title title="Meus projetos"></app-small-title>
+            </div>
+            <ul class="container__articles-b">
+                <li *ngFor="let project of projects">
+                    <app-small-card id="{{project.id}}" photoCover="{{project.photo}}"
+                        cardTitle="{{project.title}}"></app-small-card>
+                </li>
+            </ul>
+    </section>
+</div>
+
+<!-- artigos -->
+<section aria-label="Meus artigos na dio" id="artigos" class="container">
     <div>
-        <app-small-title title="Meus projetos"></app-small-title>
+        <app-small-title title="Artigos"></app-small-title>
     </div>
-    <ul class="container__articles-b">
-        <li *ngFor="let project of projects">
-            <app-small-card id="{{project.id}}" photoCover="{{project.photo}}"
-                cardTitle="{{project.title}}"></app-small-card>
+
+    <ul class="container__articles-b container">
+        <li class="article" *ngFor="let article of articles">
+            <app-small-card id="{{article.id}}" photoCover="{{article.photo}}"
+                cardTitle="{{article.title}}"></app-small-card>
         </li>
     </ul>
 </section>
-
-<div class="container__articles container">
-    <!-- artigos -->
-    <section aria-label="Meus artigos na dio" id="artigos">
-        <div>
-            <app-small-title title="Artigos"></app-small-title>
-        </div>
-
-        <ul class="container__articles_column">
-            <li class="article" *ngFor="let article of articles">
-                <app-small-card id="{{article.id}}" photoCover="{{article.photo}}"
-                    cardTitle="{{article.title}}"></app-small-card>
-            </li>
-        </ul>
-    </section>
-</div>

@@ -6,20 +6,18 @@
 }
 
 #projetos div {
-    margin-top: 20px;
+    margin-top: 35px;
     margin-left: 40px;
     width: max-content;
 }
 
-#artigos {
-    border: 1px solid var(--cor-2);
-    border-radius: 20px;
-    margin-bottom: 20px;
+#artigos div {
+    margin-left: 100px;
 }
 
-#artigos div {
-    display: flex;
-    justify-content: center;
+#artigos {
+    border-radius: 20px;
+    margin-bottom: 20px;
 }
 
 @media(max-width:870px) {

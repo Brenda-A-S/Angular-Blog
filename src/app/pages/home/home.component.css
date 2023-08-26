@@ -8,7 +8,6 @@
 
 .container__articles-b {
     display: flex;
-    padding: 10px;
     gap: 10px;
     overflow-x: auto;
 }
