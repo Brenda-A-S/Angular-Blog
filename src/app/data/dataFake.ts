@@ -25,14 +25,14 @@ export const dataFake = {
         {
             "id": "8",
             "photo": "https://user-images.githubusercontent.com/69852246/233815468-88d1a0e5-7d2e-4d9f-a35c-348e0f5bb2fa.png",
-            "title": "Clone BuzzFeed com Angular",
+            "title": "BuzzFeed Angular",
             "description": "Esse projeto foi desenvolvido durante o bootcamp Potência Tech Angular Developer - Powered by iFood da DIO(Digital Innovation One) com o Framework Angular. Consiste na criação de um Quizz com utilização dos conceitos aprendidos durante o bootcamp. A temática que escolhi é: Qual a sua casa de Hogwarts?",
             "link": "https://github.com/Brenda-A-S/BuzzfeedClone-sorting-hat-quizz"
         },
         {
             "id": "9",
             "photo": "https://user-images.githubusercontent.com/69852246/235329959-8976dc2c-ad1d-4789-b9ad-f8632dd0f134.gif",
-            "title": "Clone Twitter com Angular",
+            "title": "Twitter com Angular",
             "description": "Esse projeto foi desenvolvido utilizando o framework Angular durante a iFood Dev Week da Digital Innovation OneDIO. Foram utilizadas linguagens que são as tecnologias fundamentais para a construção de páginas da Web modernas e responsivas: HTML e CSS.",
             "link": "https://github.com/Brenda-A-S/Clone-Twitter-Angular"
         },
@@ -40,7 +40,7 @@ export const dataFake = {
     "articles": [
         {
             "id": "1",
-            "title": "Funções em JavaScript, conhecendo o Foreach",
+            "title": "Funções JavaScript",
             "photo": "https://hermes.dio.me/articles/cover/2c41aac7-a9ff-4e1b-a2a3-f97694359061.jpg",
             "link": "https://web.dio.me/articles/funcoes-em-javascript-conhecendo-o-foreach?back=%2Farticles&page=1&order=oldest"
         },
@@ -52,7 +52,7 @@ export const dataFake = {
         },
         {
             "id": "3",
-            "title": "Potência Tech Angular Developer - Powered by iFood",
+            "title": "Bootcamp iFood",
             "photo": "https://hermes.dio.me/articles/cover/457b8ac9-92b8-4864-98b5-4e4509e1dd93.jpg",
             "link": "https://web.dio.me/articles/potencia-tech-angular-developer-powered-by-ifood?back=%2Farticles&page=1&order=oldest"
         },
@@ -61,23 +61,6 @@ export const dataFake = {
             "title": "Clone do BuzzFeed",
             "photo": "https://hermes.dio.me/articles/cover/0f68e49c-2fe1-43b5-8f3e-ad4edc77e410.png",
             "link": "https://web.dio.me/articles/clone-do-buzzfeed?back=%2Farticles&page=1&order=oldest"
-        },
-    ],
-    "post": [
-        {
-            "id": "1",
-            "title": "Lista de links para te ajudar no desenvolvimento e aprendizado",
-            "link": "https://www.linkedin.com/feed/update/urn:li:activity:7098009850088947712/"
-        },
-        {
-            "id": "2",
-            "title": "Indicação de site para escolher paleta de cores: Pigment Shapefactory",
-            "link": "https://www.linkedin.com/posts/brenda-antunes-silva_design-uidesign-activity-7078427675437993984--UZ_?utm_source=share&utm_medium=member_desktop"
-        },
-        {
-            "id": "3",
-            "title": "Como eu gravo meus vídeos? Mostrando qual Software eu uso para gravação",
-            "link": "https://www.linkedin.com/posts/brenda-antunes-silva_github-activity-7094806365071634432-c842?utm_source=share&utm_medium=member_desktop"
         },
     ],
 }

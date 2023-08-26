@@ -1,19 +1,5 @@
-
-@media(max-width:895px) {
-    .container__small-title > h1 {        
-        font-size: 4rem; 
+@media (max-width:600px) {
+    .container__small-title h2 {
+        font-size: 1.8rem;
     }
-    
-}
-@media(max-width:710px) {
-    .container__small-title > h1 {        
-        font-size: 3rem; 
-    }
-    
-}
-@media(max-width:528px) {
-    .container__small-title > h1 {        
-        font-size: 2rem;
-    }
-    
 }

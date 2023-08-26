@@ -11,6 +11,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { ContentComponent } from './pages/content/content.component';
 import { SmallTitleComponent } from './components/small-title/small-title.component';
 import { SideCardComponent } from './components/side-card/side-card.component';
+import { PostCardComponent } from './components/post-card/post-card.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { SideCardComponent } from './components/side-card/side-card.component';
     HomeComponent,
     ContentComponent,
     SmallTitleComponent,
-    SideCardComponent
+    SideCardComponent,
+    PostCardComponent
   ],
   imports: [
     BrowserModule,

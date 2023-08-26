@@ -1,13 +1,9 @@
 .container__menu-title {
-    text-transform: uppercase;
-    max-width: 90%;
     margin: 2rem auto;
 }
 
 .container__menu-title h2 {
     font: 400 2.2rem/1.25 "kavoon", sans-serif;
-    display: flex;
-    gap: 12px;
 }
 
 @media (max-width:600px) {

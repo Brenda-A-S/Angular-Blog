@@ -1,0 +1,36 @@
+#projetos {
+    margin-top: 60px;
+    border-top: 1px solid var(--cor-2);
+    background: url(../../../assets/detalhe-l.svg) no-repeat top left;
+    padding: 80px 0 40px 40px;
+}
+
+#projetos div {
+    margin-top: 20px;
+    margin-left: 40px;
+    width: max-content;
+}
+
+#artigos {
+    border: 1px solid var(--cor-2);
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+#artigos div {
+    display: flex;
+    justify-content: center;
+}
+
+@media(max-width:870px) {
+    #projetos {
+        margin-top: 40px;
+        padding: 80px 0 20px 20px;
+    }
+}
+
+@media(max-width:600px) {
+    #projetos {
+        margin-top: 20px;
+    }
+}
